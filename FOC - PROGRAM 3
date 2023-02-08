@@ -1,0 +1,7 @@
+#include<stdio.h>
+int main()
+{
+	int DecimalNumber = (2020);
+	printf("Hexadecimal = %X", DecimalNumber);
+	return 0;
+}
