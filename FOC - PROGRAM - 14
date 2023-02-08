@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	int HD;
+	printf("Enter an HD = ");
+	scanf("%x", &HD);
+	printf("Decimal = %d", HD);
+	return 0;
+}
