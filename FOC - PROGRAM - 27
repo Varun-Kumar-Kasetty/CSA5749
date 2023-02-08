@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	double f, s, t;
+	printf("Enter the first number, f = ");
+	scanf("%lf", &f);
+	printf("Enter the second number, s = ");
+	scanf("%lf", &s);
+	
+	t = f;
+	f = s;
+	s = t;
+	
+	printf("\n After swapping, First Number = %.2lf\n", f);
+	printf("After swapping, Second Number = %.2lf", s);
+	return 0;
+}
