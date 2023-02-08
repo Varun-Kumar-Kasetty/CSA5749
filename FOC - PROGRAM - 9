@@ -13,4 +13,4 @@ int main()
 		printf("Given 'n' is odd");
 	}
 	return 0;
-}
+} 
