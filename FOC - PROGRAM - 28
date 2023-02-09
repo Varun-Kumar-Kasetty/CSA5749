@@ -1,8 +1,0 @@
-#include<stdio.h>
-int main()
-{
-	int D = 172;
-	printf("Hexadecimal = %x", D);
-	return 0;
-	
-}
