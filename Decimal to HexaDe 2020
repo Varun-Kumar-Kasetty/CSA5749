@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{
+	int D;
+	printf("Enter the valu of D = ");
+	scanf("%d", &D);
+	printf("HexaD = %X", D);
+	return 0;
+}
