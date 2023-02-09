@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int bin1, bin2;
+	int i, n, sum = 0;
+	printf("Enter the value of bin1 = ");
+	scanf("%d", &bin1);
+	printf("Enter the value of bin2 = ");
+	scanf("%d", &bin2);
+	n = bin1 + bin2;
+		printf("Sum of the given two numbers = %d", n);
+	return 0;
+}
