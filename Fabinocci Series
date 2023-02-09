@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main()
+{
+	int i, n;
+	int t1 = 0, t2 = 1;
+	int NT = t1 + t2;
+	printf("Enter the no.of terms = ");
+	scanf("%d", &n);
+	printf("Fabinocci Series = %d, %d ", t1, t2);
+	for (i=3;i<=n;i++)
+	{
+		printf("%d, ", NT);
+		t1 = t2;
+		t2 = NT;
+		NT = t1 + t2;
+	}
+	return 0;
+}
