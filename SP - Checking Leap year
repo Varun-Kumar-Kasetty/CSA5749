@@ -1,0 +1,14 @@
+echo "Enter a Year (YYYY)"
+read y
+  if [ 'expr $y % 4 -eq 0' ]
+  then
+  echo "$y is a Leap year"
+  else
+  echo "$y is not a Leap year"
+  fi
+  
+  
+  Output
+  Enter a year (YYYY)
+  2024
+  2024 is a Leap year
