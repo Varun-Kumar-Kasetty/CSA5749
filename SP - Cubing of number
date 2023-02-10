@@ -1,0 +1,7 @@
+echo "Enter a nummber"
+read a
+echo $((a*a*a))
+
+Output
+Enter a number 3
+27
