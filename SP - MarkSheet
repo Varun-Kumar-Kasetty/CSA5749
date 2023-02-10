@@ -1,0 +1,42 @@
+echo "*****************"
+echo "Student Marksheet"
+echo "*****************"
+echo "Enter Operating System Marks:"
+read os
+echo "Enater C++ Marks:"
+read cpp
+echo "Enater Java Marks:"
+read java
+echo "*****************"
+total=$(expr $os + $cpp + $java)
+echo "Total Marks: "$total
+per=$(expr $total / 3)
+echo "Percentage: $per"
+if [[ $per -ge 60 ]]
+then
+echo "Grade A"
+elif [[ $per -ge 50 ]]
+then
+echo "Grade B"
+elif [[ $per -ge 40 ]]
+then
+echo "Grade C"
+else
+echo "Grade F"
+fi
+echo "*****************"
+
+
+Output
+
+***************************
+   Student Mark List
+***************************
+Enter Operating system marks : 99
+Enter c++ marks : 98
+Enter  java marks : 97
+***************************
+Total marks : 294
+Percentage : 98
+Grade : A
+***************************
