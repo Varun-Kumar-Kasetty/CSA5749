@@ -1,0 +1,7 @@
+echo "Enter a number"
+read a
+echo $((a*a))
+
+Output
+Enter a number 2
+4
