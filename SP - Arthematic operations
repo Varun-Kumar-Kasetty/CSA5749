@@ -1,0 +1,16 @@
+echo "Enter a number"
+read a
+echo "Enter a another number"
+read b
+echo $((a+b))
+echo $((a-b))
+echo $((a/b))
+echo $((a*b))
+
+Output
+Enter a number 6
+Enter another number 3
+9
+3
+2
+18
