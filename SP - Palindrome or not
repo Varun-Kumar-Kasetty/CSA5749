@@ -1,0 +1,17 @@
+echo -n "Enter a number = "
+read n
+echo -n "Enter reverse of given number = "
+read r
+if [ $n -eq $r ]
+then
+echo "$n is a palindrome"
+else
+echo "$n is not palindrome"
+fi
+
+
+Output
+
+Enter a number = 545
+Enter reverse of given number = 545
+545 is a palindrome
