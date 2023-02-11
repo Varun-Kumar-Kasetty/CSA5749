@@ -1,0 +1,13 @@
+f=5
+s=6
+temp=$f
+f=$s
+s=$temp
+echo "After swapping, We got : "
+echo "First=$f, Second=$s"
+
+
+Output
+
+After swapping, We got :
+First=6, Second=5
