@@ -1,0 +1,14 @@
+echo -n "Enter a number = "
+read n
+fact=1
+for((i=2;i<=ni++))
+{
+fact=$((fact * i))
+}
+echo "$n! = $fact"
+
+
+
+Output
+Enter a number = 5
+5! = 10
