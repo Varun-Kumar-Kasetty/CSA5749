@@ -1,0 +1,28 @@
+echo "*****************************************"
+echo -n "Enter your name : "
+read a
+echo -n "Enter Program Name : "
+read b
+echo -n "Enter enrollment number : "
+read c
+echo "__________________________________________"
+echo "Name                    : $a"
+echo "Program                 : $b"
+echo "Enrollment number       : $c"
+echo "*******************************************"
+
+
+
+
+Output
+
+
+*************************************************
+Enter your name : Kasetty Varun Kumar
+Enter Program name : GitBash
+Enter enrollment number : 192211646
+_________________________________________________
+Name                       : Kasetty Varun Kumar
+Program                    : Gitbash
+Enrollment number          : 192211646
+*************************************************
