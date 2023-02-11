@@ -1,0 +1,19 @@
+echo "Enter an Integer"
+read n
+a=1
+while [[ $a -le n ]]
+do
+echo $a
+a=$(expr $a + 1)
+done
+
+
+
+Output
+Enter an Integer
+5
+1
+2
+3
+4
+5
