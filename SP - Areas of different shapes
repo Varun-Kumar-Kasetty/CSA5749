@@ -1,0 +1,22 @@
+echo -n "Enter side of a square = "
+read s
+echo -n "Enter length of a rectangle = "
+read l
+echo -n "Enter breadth of a rectangle = "
+read b
+echo -n "Enter radius of circle = "
+read r
+echo "Area of square = $((s*s))"
+echo "Area of rectangle = $((l*b))"
+echo "Area of circle = $((22/7*r*r))"
+
+
+
+Output
+Enter side of a square = 5
+Enter length of a rectangle = 6
+Enter breadth of a rectangle = 5
+Enter radius of circle = 7
+Area of square = 25
+Area of rectangle = 30
+Area of circle = 147
